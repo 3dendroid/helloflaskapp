@@ -8,7 +8,7 @@ app = Flask(__name__)
 def main():
     return 'Hello!'
 
-@app.route('/hello there')
+@app.route('/hello')
 def hello():
     phrase = random.choice([
         "Hello!",
